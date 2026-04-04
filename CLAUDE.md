@@ -14,7 +14,7 @@ University assignment for an LLM Architectures course. The main notebook is `LLM
 - **Task 1.1 (10 pts):** Implement `binary_cross_entropy_loss` with numerical stability (epsilon clamping). Understand binary vs. softmax formulation.
 - **Task 1.2 (10 pts):** Implement `LogisticRegression` nn.Module (weight init: zeros/random/tensor, forward with sigmoid, predict with 0.5 threshold).
 - **Task 1.3 (10 pts):** Implement `sgd_logistic_regression` training loop — mini-batch SGD, epoch shuffling, logging history/metrics.
-- **Task 1.4 (20 pts):** Run experiments across learning rates [0.01, 0.03, 0.1, 0.3, 1.0] and batch sizes [16, 64, 256], plot results, write conclusions.
+- **Task 1.4 (20 pts):** Run experiments across learning rates [0.01, 0.03, 0.1, 0.3, 1.0] and batch sizes [50, 100, 200], plot results, write conclusions.
 - **Task 1.5 (20 pts):** Add L1 regularization to the training loop, study sparsity effects, analyze which features get zeroed out.
 
 ### Part 2 — Comparing Optimizers (30 pts)
