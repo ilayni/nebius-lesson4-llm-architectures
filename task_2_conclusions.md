@@ -38,6 +38,8 @@ From a different starting point, Momentum could also get trapped.
 None of the optimizers guarantee finding global optima on non-convex functions.
 That would require methods like random restarts, simulated annealing, or grid search.
 I demonstrated that results depend on the starting point by changing it to (0.2, -0.5), near the global minimum — where all 4 optimizers found the global minimum.
+when the starting point is already in the basin of the global minimum, even simple GD finds it. The
+advantage of Momentum only shows when you need to cross from one basin to another.     
 
 * Do the same hyperparameters work equally well for both functions?
 No, and this is why I chose different ones for each case.
